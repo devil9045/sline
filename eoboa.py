@@ -30,22 +30,11 @@ ax + by + c = 0''')
         b4 = (b1 * q) + (b2 * p)
         c4 = (c1 * q) + (c2 * p)
 
-        w = (a1 * a2) + (b1 * b2)
-
-        if w < 0:
-            print(f'''ANS:
-LINE CONTAINING ACUTE ANGLE ==> {a3}x + {b3}y + {c3} = 0
-LINE CONTAINING OBTUSE ANGLE ==> {a4}x + {b4}y + {c4} = 0
+        print(f'''ANS:
 LINE CONTAINING ORIGIN ==> {a3}x + {b3}y + {c3} = 0
 LINE NOT CONTAINING ORIGIN ==> {a4}x + {b4}y + {c4} = 0''')
 
-        if w > 0:
-            print(f'''ANS:
-LINE CONTAINING OBTUSE ANGLE ==> {a3}x + {b3}y + {c3} = 0
-LINE CONTAINING ACUTE ANGLE ==> {a4}x + {b4}y + {c4} = 0
-LINE CONTAINING ORIGIN ==> {a3}x + {b3}y + {c3} = 0
-LINE NOT CONTAINING ORIGIN ==> {a4}x + {b4}y + {c4} = 0''')
-
+       
     if c1 <= 0 or c2 <= 0:
         a3 = (a1 * q) - (a2 * p)
         b3 = (b1 * q) - (b2 * p)
@@ -55,18 +44,8 @@ LINE NOT CONTAINING ORIGIN ==> {a4}x + {b4}y + {c4} = 0''')
         b4 = (b1 * q) + (b2 * p)
         c4 = (c1 * q) + (c2 * p)
 
-        w = (a1 * a2) + (b1 * b2)
-
-        if w < 0:
-            print(f'''ANS:
-LINE CONTAINING OBTUSE ANGLE ==> {a3}x + {b3}y + {c3} = 0
-LINE CONTAINING ACUTE ANGLE ==> {a4}x + {b4}y + {c4} = 0
+        print(f'''ANS:
 LINE NOT CONTAINING ORIGIN ==> {a3}x + {b3}y + {c3} = 0
 LINE CONTAINING ORIGIN ==> {a4}x + {b4}y + {c4} = 0''')
 
-        if w > 0:
-            print(f'''ANS:
-LINE CONTAINING ACUTE ANGLE ==> {a3}x + {b3}y + {c3} = 0
-LINE CONTAINING OBTUSE ANGLE ==> {a4}x + {b4}y + {c4} = 0
-LINE NOT CONTAINING ORIGIN ==> {a3}x + {b3}y + {c3} = 0
-LINE CONTAINING ORIGIN ==> {a4}x + {b4}y + {c4} = 0''')
+         
